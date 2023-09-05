@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-28 19:32+0400\n"
+"PO-Revision-Date: 2023-08-28 20:09+0400\n"
+"Last-Translator: Aytac Zade <aytacmzade@mail.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: account/models.py:7
+msgid "username"
+msgstr "Учетная запись пользователя"
+
+#: account/models.py:8
+msgid "email address"
+msgstr "Электронная почта"
+
+#: account/models.py:16
+msgid "account"
+msgstr "Счет"
+
+#: account/models.py:17
+msgid "accounts"
+msgstr "Счета"
+
+#: core/forms.py:10
+msgid "Ad, soyad"
+msgstr "Имя и фамилия"
+
+#: core/forms.py:14
+msgid "E-mail"
+msgstr "Электронная почта"
+
+#: core/forms.py:18
+msgid "Başlıq"
+msgstr "Заголовок"
+
+#: core/forms.py:22
+msgid "Mətn"
+msgstr "Текст"
+
+#: templates/base/index.html:45
+msgid "Dil"
+msgstr "Язык"
+
+#: templates/base/index.html:95
+msgid "search"
+msgstr "Поиск"
+
+#: templates/base/index.html:126
+msgid "Categories"
+msgstr "Категории"
+
+#: templates/base/index.html:147 templates/base/index.html:234
+msgid "Home"
+msgstr "Домашняя страница"
+
+#: templates/base/index.html:148 templates/base/index.html:235
+msgid "About"
+msgstr "о нас"
+
+#: templates/base/index.html:149 templates/base/index.html:236
+msgid "Products"
+msgstr "Продукты"
+
+#: templates/base/index.html:150 templates/base/index.html:237
+msgid "Contact"
+msgstr "Контакт"
+
+#: templates/base/index.html:158
+msgid "Logout"
+msgstr "Контакт"
+
+#: templates/base/index.html:162
+msgid "Login"
+msgstr "Авторизоваться"
+
+#: templates/base/index.html:163
+msgid "Register"
+msgstr "регистр"
+
+#: templates/base/index.html:232
+msgid "Quick Links"
+msgstr "Быстрые ссылки"
+
+#: templates/base/index.html:263
+msgid " All Rights Reserved."
+msgstr "Все права защищены."

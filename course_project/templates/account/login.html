@@ -1,0 +1,34 @@
+{% extends 'base/index.html' %}
+
+{%load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card" style="margin-bottom: 30%; margin-top: 20%;">
+                <h2 class="card-title text-center">İndi giriş edin</a></h2>
+                <div class="card-body py-md-4">
+                    <form method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label>Email</label>
+                            {{form.username}}
+                        </div>
+                        <div class="form-group">
+                            <label>Şifrə</label>
+                            {{form.password}}
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-between">
+                            <small>Hesabınız yoxdur? <a href="{% url 'register' %}">Qeydiyyatdan keçin</a></small>
+                            <button type='submit' class="btn btn-primary">Giriş edin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock%}

@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-28 19:32+0400\n"
+"PO-Revision-Date: 2023-08-28 19:59+0400\n"
+"Last-Translator: Aytac Zade <aytacmzade@mail.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: account/models.py:7
+msgid "username"
+msgstr "İstifadəçi adı"
+
+#: account/models.py:8
+msgid "email address"
+msgstr "E-poçt"
+
+#: account/models.py:16
+msgid "account"
+msgstr "Hesab"
+
+#: account/models.py:17
+msgid "accounts"
+msgstr "Hesablar"
+
+#: core/forms.py:10
+msgid "Ad, soyad"
+msgstr "Ad, soyad"
+
+#: core/forms.py:14
+msgid "E-mail"
+msgstr "E-mail"
+
+#: core/forms.py:18
+msgid "Başlıq"
+msgstr "Başlıq"
+
+#: core/forms.py:22
+msgid "Mətn"
+msgstr "Mətn"
+
+#: templates/base/index.html:45
+msgid "Dil"
+msgstr "Dil"
+
+#: templates/base/index.html:95
+msgid "search"
+msgstr "Axtar"
+
+#: templates/base/index.html:126
+msgid "Categories"
+msgstr "Kateqoriyalar"
+
+#: templates/base/index.html:147 templates/base/index.html:234
+msgid "Home"
+msgstr "Ana səhifə"
+
+#: templates/base/index.html:148 templates/base/index.html:235
+msgid "About"
+msgstr "Haqqımızda"
+
+#: templates/base/index.html:149 templates/base/index.html:236
+msgid "Products"
+msgstr "Məhsullar"
+
+#: templates/base/index.html:150 templates/base/index.html:237
+msgid "Contact"
+msgstr "Əlaqə"
+
+#: templates/base/index.html:158
+msgid "Logout"
+msgstr "Çıxış"
+
+#: templates/base/index.html:162
+msgid "Login"
+msgstr "Giriş"
+
+#: templates/base/index.html:163
+msgid "Register"
+msgstr "Qeydiyyat"
+
+#: templates/base/index.html:232
+msgid "Quick Links"
+msgstr "Qısa keçidlər"
+
+#: templates/base/index.html:263
+msgid " All Rights Reserved."
+msgstr "Bütün hüquqlar qorunur"
